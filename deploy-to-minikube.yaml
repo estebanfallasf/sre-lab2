@@ -15,7 +15,7 @@ spec:
             containers:
                 - name: lab2-api
                   imagePullPolicy: Never
-                  image: ghcr.io/GHCR_USER/sre-lab2:TAG
+                  image: ghcr.io/GHCR_USER/lab2:TAG
                   resources:
                       limits:
                           cpu: 50m
